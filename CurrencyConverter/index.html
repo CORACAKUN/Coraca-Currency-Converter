@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Coraca's Currency Converter</title>
+  <link rel="icon" type="image/x-icon" href="/dollar-black-circle-icon-28.png">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  <div class="input-container">
+    <input class="enter-amount" type="number" id="amount" placeholder="Enter Amount">
+    <select class="conver-from" id="from">
+      <option value="USD">US Dollar</option>
+      <option value="PHP">Philippines Peso</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="INR">Indian Rupee</option>
+      <option value="EUR">Euro</option>
+    </select>
+    <select class="convert-to" id="to">
+      <option value="USD">US Dollar</option>
+      <option value="PHP">Philippines Peso</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="INR">Indian Rupee</option>
+      <option value="EUR">Euro</option>
+    </select>
+    <button class="convert" onclick="convert()"> Convert</button>
+  </div>
+  <div class="output-container">
+    <p class="result" id="result"></p>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
